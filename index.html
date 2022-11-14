@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pokemon Guesing Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="rules">
+     <p>By Lee and Chris</p> 
+    <h1>Rules</h1>
+    <ol>
+      <li>Guess the pokemon</li>
+      <li>If the guess is incorrect, a hint will be displayed</li>
+    </ol>
+    </div>
+    
+    <div class="container">
+      <h1> Pokemon Guesing Game </h1>
+      <img src="" />
+       <p class="weight">Weight:</p>
+       <p class="height">Height:</p>
+       <p class="abilities"> Abilities:</p>
+       <p class="weakness">Weakness:</p>
+       <p class="type">Type:</p>
+      <form>
+        <input type="text" placeholder="Guess the Pokemon">
+        <button type="button">Check</button>
+      </form>
+      <p class="guess"> </p>
+      <p class="clue">Hint: </p>
+      <p class="score">Score: 0</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

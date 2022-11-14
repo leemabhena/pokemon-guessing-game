@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+
+
+body{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1{
+  font-family: "Noto Sans", sans-serif;
+}
+p {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+}
+.container{
+  background-color: #CCD1E4;
+  padding: 20px;
+}
+
+button {
+  background-color: #F9D371;
+  border: none;
+  padding: 10px;
+  color: brown; 
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: brown;
+  color: #F9D371;
+}
+
+input{
+  height: 30px;
+  outline: none;
+  border: none;
+}
+
+.rules{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  text-align: left;
+}
+
+.rules h1{
+  text-align: center;
+  font-family: "Handwrite", cursive;
+  font-size: 64px;
+}
+
+.overlay{
+  position: absolute;
+  background-color: #DADDFC;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+}
